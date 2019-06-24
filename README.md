@@ -24,6 +24,10 @@ Install from default repositories script (Ubuntu)
 ./ubuntu-apps.sh
 ```
 
+## Gnome Themes
+
+* [Vimix theme](https://www.opendesktop.org/p/1013698)
+
 ## Gnome Extensions
 
 * [Extensions](https://extensions.gnome.org/extension/1036/extensions/)
