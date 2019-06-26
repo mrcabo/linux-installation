@@ -31,9 +31,10 @@ Install from default repositories script (Ubuntu)
 
 ## Gnome Extensions
 
+* [Extended Gestures](https://extensions.gnome.org/extension/1253/extended-gestures/)
+* [OpenWeather](https://extensions.gnome.org/extension/750/openweather/)
 * [Extensions](https://extensions.gnome.org/extension/1036/extensions/)
 * [Cpu power manager](https://extensions.gnome.org/extension/945/cpu-power-manager/)
-* [OpenWeather](https://extensions.gnome.org/extension/750/openweather/)
 * [Caffeine](https://extensions.gnome.org/extension/517/caffeine/)
 
 <!-- 
