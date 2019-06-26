@@ -6,7 +6,7 @@ sudo dnf -y install flatpak
 
 sudo dnf -y install tilix
 
-echo 'export alias python=python3' >> $HOME/.bashrc
+echo 'alias python=python3' >> $HOME/.bashrc
 
 # Installing gdrive
 sudo dnf -y install golang
