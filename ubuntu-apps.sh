@@ -9,6 +9,7 @@ sudo apt --yes install vlc
 sudo apt --yes install krita
 sudo apt --yes install nano
 
+sudo apt --yes install python3-venv
 echo 'alias python=python3' >> $HOME/.bashrc
 
 # # Grub customizer
