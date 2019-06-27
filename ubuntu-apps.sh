@@ -1,7 +1,8 @@
 #!/bin/bash
 
 sudo apt update
-sudo apt upgrade
+sudo apt --yes upgrade
+
 sudo apt --yes install cmake
 sudo apt --yes install okular
 sudo apt --yes install tilix
@@ -25,7 +26,7 @@ sudo apt update
 sudo apt --yes install brave-browser-dev
 
 # Installing gdrive
-sudo apt -y install golang
+sudo apt --yes install golang
 echo 'export GOPATH=$HOME/go' >> $HOME/.bashrc
 go get -u github.com/odeke-em/drive/cmd/drive
 echo 'export PATH=$PATH:$GOPATH/bin' >> $HOME/.bashrc
