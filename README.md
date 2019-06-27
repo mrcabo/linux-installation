@@ -7,11 +7,12 @@
 * [VS Code](https://code.visualstudio.com/download)
 * [Git Kraken](https://www.gitkraken.com/download)
 * [Spotify](https://www.spotify.com/nl/download/linux/)
-* [Spotify (fedora)](https://flathub.org/apps/details/com.spotify.Client)
 * [VLC](https://www.videolan.org/vlc/)
 * [Chrome](https://www.google.com/chrome/)
 * [Brave dev](https://brave.com/download-dev/)
 * [Vivaldi](https://vivaldi.com/download/)
+* Blender
+* Steam
 * Cmake
 * Krita
 * Gnome tweaks
