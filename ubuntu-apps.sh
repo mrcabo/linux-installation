@@ -9,6 +9,7 @@ sudo apt --yes install tilix
 sudo apt --yes install vlc
 sudo apt --yes install krita
 sudo apt --yes install nano
+sudo apt --yes install tree
 
 sudo apt --yes install python3-venv
 echo 'alias python=python3' >> $HOME/.bashrc
@@ -18,12 +19,13 @@ echo 'alias python=python3' >> $HOME/.bashrc
 # sudo apt update
 # sudo apt install grub-customizer
 
-# Install Brave-dev
-curl -s https://brave-browser-apt-dev.s3.brave.com/brave-core-nightly.asc | sudo apt-key --keyring /etc/apt/trusted.gpg.d/brave-browser-dev.gpg add -
+# Install Brave-beta
+sudo apt --yes install apt-transport-https curl
+curl -s https://brave-browser-apt-beta.s3.brave.com/brave-core-nightly.asc | sudo apt-key --keyring /etc/apt/trusted.gpg.d/brave-browser-beta.gpg add -
 source /etc/os-release
-echo "deb [arch=amd64] https://brave-browser-apt-dev.s3.brave.com/ $UBUNTU_CODENAME main" | sudo tee /etc/apt/sources.list.d/brave-browser-dev-${UBUNTU_CODENAME}.list
+echo "deb [arch=amd64] https://brave-browser-apt-beta.s3.brave.com/ $UBUNTU_CODENAME main" | sudo tee /etc/apt/sources.list.d/brave-browser-beta-${UBUNTU_CODENAME}.list
 sudo apt update
-sudo apt --yes install brave-browser-dev
+sudo apt --yes install brave-browser-beta
 
 # Installing gdrive
 sudo apt --yes install golang
