@@ -19,16 +19,9 @@ echo 'alias python=python3' >> $HOME/.bashrc
 # sudo apt update
 # sudo apt install grub-customizer
 
-# Install Brave-beta
-sudo apt --yes install apt-transport-https curl
-curl -s https://brave-browser-apt-beta.s3.brave.com/brave-core-nightly.asc | sudo apt-key --keyring /etc/apt/trusted.gpg.d/brave-browser-beta.gpg add -
-source /etc/os-release
-echo "deb [arch=amd64] https://brave-browser-apt-beta.s3.brave.com/ $UBUNTU_CODENAME main" | sudo tee /etc/apt/sources.list.d/brave-browser-beta-${UBUNTU_CODENAME}.list
-sudo apt update
-sudo apt --yes install brave-browser-beta
-
 # Installing gdrive
-sudo apt --yes install golang
-echo 'export GOPATH=$HOME/go' >> $HOME/.bashrc
+curl https://dl.google.com/go/go1.13.5.linux-amd64.tar.gz --output ~/Downloads/go1.13.5.linux-amd64.tar.gz
+sudo tar -C /usr/local -xzf ~/Downloads/go1.13.5.linux-amd64.tar.gz
+echo 'export PATH=$PATH:/usr/local/go/bin' >> $HOME/.profile
 go get -u github.com/odeke-em/drive/cmd/drive
-echo 'export PATH=$PATH:$GOPATH/bin' >> $HOME/.bashrc
+
