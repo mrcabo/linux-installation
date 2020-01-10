@@ -24,4 +24,4 @@ curl https://dl.google.com/go/go1.13.5.linux-amd64.tar.gz --output ~/Downloads/g
 sudo tar -C /usr/local -xzf ~/Downloads/go1.13.5.linux-amd64.tar.gz
 echo 'export PATH=$PATH:/usr/local/go/bin' >> $HOME/.profile
 go get -u github.com/odeke-em/drive/cmd/drive
-
+echo 'export PATH=$PATH:/home/diego/go/bin' >> $HOME/.bashrc
