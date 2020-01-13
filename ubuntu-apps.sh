@@ -3,6 +3,7 @@
 sudo apt update
 sudo apt --yes upgrade
 
+sudo apt --yes install default-jre
 sudo apt --yes install cmake
 sudo apt --yes install okular
 sudo apt --yes install tilix
