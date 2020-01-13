@@ -10,6 +10,7 @@
 * [Chrome](https://www.google.com/chrome/)
 * [Brave dev](https://brave.com/download-dev/)
 * [Vivaldi](https://vivaldi.com/download/)
+* [JabRef](https://docs.jabref.org/general/installation#using-prebuilt-binaries)
 * Gnome Tweaks
 * Blender
 * Steam
