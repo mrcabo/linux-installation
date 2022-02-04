@@ -10,10 +10,8 @@ sudo apt --yes install vlc
 sudo apt --yes install vim
 sudo apt --yes install tree
 sudo apt --yes install htop
-# sudo apt --yes install okular
-
 sudo apt --yes install python3-venv
-echo 'alias python=python3' >> $HOME/.bashrc
+# sudo apt --yes install okular
 
 # # Grub customizer
 # sudo add-apt-repository ppa:danielrichter2007/grub-customizer
