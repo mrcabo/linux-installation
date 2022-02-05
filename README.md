@@ -2,7 +2,7 @@
 
 ## Install apps from the shop
 - Spotify
-- Krita
+- GIMP
 - Steam
 - Tilix
 
