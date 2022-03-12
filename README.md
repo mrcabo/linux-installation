@@ -13,6 +13,7 @@
 * [Chrome](https://www.google.com/chrome/)
 * [Vivaldi](https://vivaldi.com/download/)
 * [Brave](https://brave.com/linux/#linux)
+* [Signal](https://signal.org/download/)
 * Gnome Tweaks
 * Grub Customizer
 * Okular
